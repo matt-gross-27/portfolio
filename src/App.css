@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --color1: hsl(122, 100%, 12%);
+  --color2: hsl(122, 100%, 24%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  color: var(--color1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 16px 24px;
+  border-bottom: 1px solid grey;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-right: 12px;
+  margin-bottom: 8px;
+  width: 124px;
+  flex-grow: 0
+}
+
+nav {
+  flex-grow: 1;
+}
+
+header ul {
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+header li {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+  align-self: center;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.isActiveNav {
+  color: var(--color2);
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  padding: 16px 25%;
+  border-top:hsl(122, 100%, 12%) 1px solid;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 487px) {
+  header h1 {
+    width: 100%;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  footer {
+    padding: 16px 0;
+  }
+}
+
+@media screen and (max-width: 351px) {
+  header li {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
