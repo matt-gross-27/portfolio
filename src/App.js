@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 
-import './App.css'
+import './App.css';
 
-import Nav from './components/Nav'
-import Footer from './components/Footer'
-import PortfolioList from './components/PortfolioList'
-import Contact from './components/Contact'
-import Resume from './components/Resume'
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 
-import myProjects from './utils/myProjects'
-import myResume from './assets/Matthew_Gross_Resume.pdf'
+import About from './components/About';
+import Contact from './components/Contact';
+import PortfolioList from './components/PortfolioList';
+import Resume from './components/Resume';
+
+import myProjects from './utils/myProjects';
+import myResume from './assets/Matthew_Gross_Resume.pdf';
 
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
         { activeNav === "Portfolio" && <PortfolioList myProjects={myProjects} /> }
         { activeNav === "Contact" && <Contact /> }
         { activeNav === "Resume" && <Resume pdf={myResume} /> }
+        { activeNav === "About Me" && <About /> }
       </main>
 
       <Footer />
