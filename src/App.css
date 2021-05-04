@@ -6,7 +6,7 @@
 
 :root {
   --color1: hsl(122, 100%, 12%);
-  --color2: hsl(122, 100%, 24%);
+  --color2: hsl(122, 100%, 35%);
 }
 
 body {
@@ -64,7 +64,7 @@ header ul {
   justify-content: space-around;
 }
 
-header li {
+li {
   font-size: 14px;
   padding-left: 10px;
   padding-right: 10px;
@@ -74,8 +74,19 @@ header li {
   margin-bottom: 8px;
 }
 
-header li:hover {
-  text-shadow: 1px 1px 1px rgb(206, 206, 206) ;
+a {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  align-self: center;
+  cursor: pointer;
+  margin-bottom: 8px;
+  color: var(--color2);
+}
+
+header li:hover, a:hover{
+  text-shadow: 1px 1px 1px rgb(206, 206, 206);
 }
 
 .isActiveNav {
@@ -90,7 +101,7 @@ footer {
   align-items: center;
   width: 100%;
   padding: 16px 25%;
-  border-top:hsl(122, 100%, 12%) 1px solid;
+  border-top:var(--color1) 1px solid;
   margin-top: 41px
 }
 
@@ -187,12 +198,19 @@ footer {
 }
 
 .err-msg {
-  color: rgb(255, 112, 112);
+  color: rgb(255, 64, 64);
 }
 
 /* RESUME */
 .pdf {
-  height: calc(100vh - 171px - 41px);
+  /* max-height: calc(100vw * 80%); */
+  min-height: calc(100vh - 250px);
+}
+
+.skills > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  text-align: center;
 }
 
 /* ABOUT */
@@ -320,5 +338,54 @@ footer {
   header li {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  main {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  main {
+    width: 90%;
+  }
+}
+
+/* ABOUT */
+@media screen and (max-width: 625px) {
+  .about {
+    flex-direction: column-reverse;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .about-img-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .bio::after {
+    width: 80px;
+    height: 50pxx;
+    background: #000;
+    position: absolute;
+    bottom: -50px;
+    left: 65%;
+    border-right: none;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+  }
+}
+
+/* SKILLS */
+@media screen and (max-width: 770px) {
+  .skills > ul {
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .skills > ul {
+    grid-template-columns: 1fr;
   }
 }

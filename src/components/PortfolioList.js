@@ -12,7 +12,7 @@ function PortfolioList(props) {
 
   return (
     <>
-      <h2>My Projects</h2>
+      <h2>Portfolio</h2>
       <section className="portfolio-wrapper">
         {
           myProjects.map(({ name, img, isDeployed, url, repo, featured }) => (
