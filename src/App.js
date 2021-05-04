@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import PortfolioList from './components/PortfolioList'
 import myProjects from './utils/myProjects'
+import PortfolioList from './components/PortfolioList'
+import Contact from './components/Contact'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       />
       <main>
         { activeNav === "Portfolio" && <PortfolioList myProjects={myProjects} /> }
+        { activeNav === "Contact" && <Contact /> }
       </main>
 
       <Footer />

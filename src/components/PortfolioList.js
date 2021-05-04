@@ -13,21 +13,21 @@ function PortfolioList(props) {
   return (
     <>
       <h2>My Projects</h2>
-      <div className="portfolio-wrapper">
+      <section className="portfolio-wrapper">
         {
           myProjects.map(({ name, img, isDeployed, url, repo, featured }) => (
             <div key={repo} className={`project-card ${featured && 'featured'}`}>
               <h3 className="project-name">{name}</h3>
               <img className="project-img" src={require(`../assets/${img}`).default} alt={name} />
               <div className="project-links">
-                <SocialIcon style={iconSize} url={repo} target="_blank"/>
-                {isDeployed && (<a className="deployed-link" href={url} target="_blank">🌐</a>)}
+                <SocialIcon style={iconSize} url={repo} target="_blank" rel="noreferrer"/>
+                {isDeployed && (<a className="deployed-link" href={url} target="_blank" rel="noreferrer">🌐</a>)}
               </div>
             </div>
 
           ))
         }
-      </div>
+      </section>
     </>
   )
 }
