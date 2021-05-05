@@ -22,6 +22,7 @@ main {
   display: flex;
   flex-flow: column;
   min-height: calc(100vh - 171px - 41px);
+  overflow: hidden;
 }
 
 header {
@@ -237,7 +238,7 @@ footer {
   text-align: justify;
   padding: 41px;
   transform: translateX(1000px);
-  animation: comeFromRight 1s ease-out forwards;
+  animation: comeFromRight 1s .5s ease-out forwards;
   background-color: black;
   color: var(--color2);
 }
@@ -361,8 +362,10 @@ footer {
   }
 
   .about-img-wrapper {
+    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    animation: drop 1s linear forwards;
   }
 
   .bio::after {
@@ -388,4 +391,10 @@ footer {
   .skills > ul {
     grid-template-columns: 1fr;
   }
+}
+
+
+@keyframes drop {
+  from {transform: translateY(-500px) rotate(360deg)}
+  to {transform: translateY(0) rotate(0deg)}
 }
