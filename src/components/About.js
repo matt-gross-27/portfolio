@@ -19,12 +19,14 @@ function About() {
               Hi,
               <br />
               <br />
-            I'm Matt and I've been learning how to code for the last <Timer />.
-            Three hours of which, were figuring out how to implement that clock in my first React application, this portfolio.
-            Please take a look at some of the stuff I've built over on the portfolio tab, and feel free to get in touch with the contact form or checkout my resume.
+            I'm Matt. I've been learning how to code for the last <Timer />;
+            three hours of which were figuring out how to integrate that clock into my first React application (this portfolio).
+            <br />
+            <br />
+            Take a look at some of the web apps I've built over on the Portfolio tab, and feel free to get in touch with me through the Contact Form. 
               <br />
               <br />
-            Cheers
+            Cheers!
           </p>
           </div>
         </div>
@@ -34,4 +36,4 @@ function About() {
   );
 }
 
-export default About;;
+export default About
