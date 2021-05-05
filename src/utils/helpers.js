@@ -51,11 +51,11 @@ export function dateDiff(now) {
   hours > 0 && timeArray.push(formatString(hours, 'hour'));
 
   const minutes = now.getMinutes();
-  // minutes > 0 && timeArray.push(formatString(minutes, 'minute'));
-  timeArray.push(`and ${minutes} minute${minutes === 1 ? '' : 's'}`)
+  minutes > 0 && timeArray.push(formatString(minutes, 'minute'));
+  // timeArray.push(`and ${minutes} minute${minutes === 1 ? '' : 's'}`)
 
-  // const seconds = now.getSeconds();
-  // timeArray.push(`and ${seconds} second${seconds === 1 ? '' : 's'}`)
+  const seconds = now.getSeconds();
+  timeArray.push(`and ${seconds} second${seconds === 1 ? '' : 's'}`)
 
 
 
