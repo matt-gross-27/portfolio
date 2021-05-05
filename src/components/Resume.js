@@ -9,7 +9,7 @@ function Resume(props) {
       <h2>Resume</h2>
       {/* <iframe className='pdf' src={pdf} title="my-resume"></iframe> */}
       <br />
-      <a href={pdf} target="_blank" rel="noreferrer">Link to full resume</a>
+      <a href={pdf} target="_blank" rel="noreferrer">View full resume</a>
       <br />
       <div className="skills">
         <ul>
