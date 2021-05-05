@@ -228,7 +228,7 @@ footer {
 }
 
 .about-img {
-  width: 100%;
+  width: 300px;
   position: relative;
   bottom: 0;
 }
@@ -251,7 +251,7 @@ footer {
   background: #000;
   position: absolute;
   bottom: 30px;
-  left: -40px;
+  left: -30px;
   border-right: 10px solid black;
   clip-path: polygon(100% 100%, 100% 0, 0 50%);
 }
@@ -264,6 +264,10 @@ footer {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 990px) {
+  .about-img {
+    width: 200px;
+  }
+
   .portfolio-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -335,6 +339,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 500px) {
+  main {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 351px) {
   header li {
     padding-left: 30px;
@@ -346,13 +356,6 @@ footer {
   }
 }
 
-
-@media screen and (max-width: 500px) {
-  main {
-    width: 90%;
-  }
-}
-
 /* ABOUT */
 @media screen and (max-width: 625px) {
   .about {
@@ -361,10 +364,14 @@ footer {
     padding-right: 5vw;
   }
 
+  .about-img {
+    width: 100%;
+  }
+
   .about-img-wrapper {
     padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     animation: drop 1s linear forwards;
   }
 
