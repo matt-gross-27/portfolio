@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8f7e292a.chunk.css",
-    "main.js": "/portfolio/static/js/main.04782e90.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.04782e90.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.1fea5855.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1fea5855.js.map",
+    "main.css": "/portfolio/static/css/main.ef91aab8.chunk.css",
+    "main.js": "/portfolio/static/js/main.7cb060b1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7cb060b1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.31f88bec.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.31f88bec.js.map",
     "static/js/2.79dd73c4.chunk.js": "/portfolio/static/js/2.79dd73c4.chunk.js",
     "static/js/2.79dd73c4.chunk.js.map": "/portfolio/static/js/2.79dd73c4.chunk.js.map",
-    "static/js/3.98f0d1d4.chunk.js": "/portfolio/static/js/3.98f0d1d4.chunk.js",
-    "static/js/3.98f0d1d4.chunk.js.map": "/portfolio/static/js/3.98f0d1d4.chunk.js.map",
+    "static/js/3.41d5a211.chunk.js": "/portfolio/static/js/3.41d5a211.chunk.js",
+    "static/js/3.41d5a211.chunk.js.map": "/portfolio/static/js/3.41d5a211.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.8f7e292a.chunk.css.map": "/portfolio/static/css/main.8f7e292a.chunk.css.map",
+    "static/css/main.ef91aab8.chunk.css.map": "/portfolio/static/css/main.ef91aab8.chunk.css.map",
     "static/js/2.79dd73c4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.79dd73c4.chunk.js.LICENSE.txt",
     "static/media/Matthew_Gross_Resume.pdf": "/portfolio/static/media/Matthew_Gross_Resume.cb8bd32d.pdf",
-    "static/media/about-pic.png": "/portfolio/static/media/about-pic.c09e507f.png",
+    "static/media/about-pic-2.png": "/portfolio/static/media/about-pic-2.c09e507f.png",
+    "static/media/about-pic.png": "/portfolio/static/media/about-pic.944e17c9.png",
     "static/media/app.png": "/portfolio/static/media/app.b28f7688.png",
     "static/media/backgammon.png": "/portfolio/static/media/backgammon.130aadd6.png",
     "static/media/flowers.png": "/portfolio/static/media/flowers.5a67dedb.png",
@@ -24,9 +25,9 @@
     "static/media/weather.png": "/portfolio/static/media/weather.09db2047.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fea5855.js",
+    "static/js/runtime-main.31f88bec.js",
     "static/js/2.79dd73c4.chunk.js",
-    "static/css/main.8f7e292a.chunk.css",
-    "static/js/main.04782e90.chunk.js"
+    "static/css/main.ef91aab8.chunk.css",
+    "static/js/main.7cb060b1.chunk.js"
   ]
 }
