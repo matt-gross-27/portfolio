@@ -19,7 +19,7 @@ function About() {
               Hi,
               <br />
               <br />
-            I'm Matt. I've been learning how to code for the last <Timer />;
+            I'm Matt. I've been learning how to code for the last <Timer />,
             three hours of which were figuring out how to integrate that clock into my first React application (this portfolio).
             <br />
             <br />
@@ -30,7 +30,6 @@ function About() {
           </p>
           </div>
         </div>
-
       </div>
     </>
   );
