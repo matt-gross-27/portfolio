@@ -18,12 +18,20 @@ module.exports = [
     featured: true,
   },
   {
+    name: "Mern Shop Redux",
+    img: "mern-shop-redux.png",
+    isDeployed: true,
+    url: "https://mern-shop-redux.herokuapp.com/",
+    repo: "https://github.com/matt-gross-27/mern-shop-redux",
+    featured: true,
+  },
+  {
     name: "Flowers",
     img: "flowers.png",
     isDeployed: true,
     url: "https://send-flowers.herokuapp.com/",
     repo: "https://github.com/matt-gross-27/flowers",
-    featured: true,
+    featured: false,
   },
   {
     name: "Trading News",
@@ -49,12 +57,12 @@ module.exports = [
     repo: "https://github.com/matt-gross-27/jest-another-RPG",
     featured: false,
   },
-  {
-    name: "Taskmaster Pro",
-    img: "taskmaster-pro.png",
-    isDeployed: true,
-    url: "https://matt-gross-27.github.io/taskmaster-pro/",
-    repo: "https://github.com/matt-gross-27/taskmaster-pro",
-    featured: false,
-  },
+  // {
+  //   name: "Taskmaster Pro",
+  //   img: "taskmaster-pro.png",
+  //   isDeployed: true,
+  //   url: "https://matt-gross-27.github.io/taskmaster-pro/",
+  //   repo: "https://github.com/matt-gross-27/taskmaster-pro",
+  //   featured: false,
+  // },
 ]
