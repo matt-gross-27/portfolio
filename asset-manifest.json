@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.946a3151.chunk.css",
-    "main.js": "/portfolio/static/js/main.a94ee1b2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a94ee1b2.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.31f88bec.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.31f88bec.js.map",
+    "main.js": "/portfolio/static/js/main.c0238a64.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c0238a64.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.e8f587e0.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e8f587e0.js.map",
     "static/js/2.79dd73c4.chunk.js": "/portfolio/static/js/2.79dd73c4.chunk.js",
     "static/js/2.79dd73c4.chunk.js.map": "/portfolio/static/js/2.79dd73c4.chunk.js.map",
-    "static/js/3.41d5a211.chunk.js": "/portfolio/static/js/3.41d5a211.chunk.js",
-    "static/js/3.41d5a211.chunk.js.map": "/portfolio/static/js/3.41d5a211.chunk.js.map",
+    "static/js/3.32e37cbd.chunk.js": "/portfolio/static/js/3.32e37cbd.chunk.js",
+    "static/js/3.32e37cbd.chunk.js.map": "/portfolio/static/js/3.32e37cbd.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.946a3151.chunk.css.map": "/portfolio/static/css/main.946a3151.chunk.css.map",
     "static/js/2.79dd73c4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.79dd73c4.chunk.js.LICENSE.txt",
@@ -19,15 +19,16 @@
     "static/media/backgammon.png": "/portfolio/static/media/backgammon.130aadd6.png",
     "static/media/flowers.png": "/portfolio/static/media/flowers.5a67dedb.png",
     "static/media/jest-another-rpg.png": "/portfolio/static/media/jest-another-rpg.f0eab239.png",
+    "static/media/mern-shop-redux.png": "/portfolio/static/media/mern-shop-redux.f0146b6e.png",
     "static/media/taskmaster-pro.png": "/portfolio/static/media/taskmaster-pro.3878c462.png",
     "static/media/the-tech-blog.png": "/portfolio/static/media/the-tech-blog.7d127de3.png",
     "static/media/trading-news.png": "/portfolio/static/media/trading-news.6f86fe2f.png",
     "static/media/weather.png": "/portfolio/static/media/weather.09db2047.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.31f88bec.js",
+    "static/js/runtime-main.e8f587e0.js",
     "static/js/2.79dd73c4.chunk.js",
     "static/css/main.946a3151.chunk.css",
-    "static/js/main.a94ee1b2.chunk.js"
+    "static/js/main.c0238a64.chunk.js"
   ]
 }
