@@ -18,11 +18,11 @@ module.exports = [
     featured: true,
   },
   {
-    name: "Mern Shop Redux",
-    img: "mern-shop-redux.png",
+    name: "Buy Local",
+    img: "buy-local.png",
     isDeployed: true,
-    url: "https://mern-shop-redux.herokuapp.com/",
-    repo: "https://github.com/matt-gross-27/mern-shop-redux",
+    url: "https://buylocal-3000.herokuapp.com/",
+    repo: "https://github.com/matt-gross-27/buy-local",
     featured: true,
   },
   {
